@@ -5,23 +5,23 @@ on:
       CPU:
         description: "分支"
         required: true
-        default: 'sm7675'
+        default: 'sm8750'
       FEIL:
         description: "配置文件"
         required: true
-        default: 'oneplus_ace_3v_v'
+        default: 'JiuGeFaCai_oneplus_13_v'
       CPUD:
         description: "处理器代号"
         required: true
-        default: 'pineapple'
+        default: 'sun'
       ANDROID_VERSION:
         description: "内核安卓版本"
         required: true
-        default: 'android14'
+        default: 'android15'
       KERNEL_VERSION:
         description: "内核版本"
         required: true
-        default: '6.1'
+        default: '6.6'
       KSUNEXT_ENABLED:
         description: "添加 KSU Next"
         required: true
