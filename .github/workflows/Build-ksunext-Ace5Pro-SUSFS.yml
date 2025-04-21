@@ -154,7 +154,7 @@ jobs:
           export LTO=thin
           #./kernel_platform/oplus/build/oplus_build_kernel.sh ${{ github.event.inputs.CPUD }} gki
           ./kernel_platform/build_with_bazel.py \
-             -t pineapple \
+             -t sun \
              gki \
       - name: Make AnyKernel3
         run: |
