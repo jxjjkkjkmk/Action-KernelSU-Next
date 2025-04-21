@@ -152,10 +152,10 @@ jobs:
         run: |
           cd kernel_workspace
           export LTO=thin
-          #./kernel_platform/oplus/build/oplus_build_kernel.sh ${{ github.event.inputs.CPUD }} gki
-          ./kernel_platform/build_with_bazel.py \
-             -t pineapple \
-             gki \
+          ./kernel_platform/oplus/build/oplus_build_kernel.sh ${{ github.event.inputs.CPUD }} gki
+          #./kernel_platform/build_with_bazel.py \
+          #   -t pineapple \
+          #   gki \
       - name: Make AnyKernel3
         run: |
           git clone https://github.com/Numbersf/AnyKernel3 --depth=1
